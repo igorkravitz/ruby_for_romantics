@@ -742,5 +742,6 @@ end
 # m.run
 # puts m.state
 
+
 arr = Array.new(10) { Monkey.new }
 arr.each { |item| puts item.state }
